@@ -16,6 +16,22 @@ export const Title = styled.h1`
  
 export const ResultsContainer = styled.div`
   margin-top: 20px;
+  height: 400px;
+  width: 40vw;
+  overflow: auto;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #8ebbee;
+ 
+   
+  @media (max-width: 768px) {
+    
+    width: auto;
+    height:200px;
+    overflow: auto;
+    flex: none;
+   }
 `
 
 export const ResultsList = styled.ul`

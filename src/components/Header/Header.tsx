@@ -5,7 +5,7 @@ import FavoritesDialog from "../FavoritesDialog/FavoritesDialog";
 const HeaderWrapper = styled.header`
   background-color: #4a90e2;
   color: white;
-  padding: 1rem;
+  padding: 16px;
   text-align: center;
   justify-content: center;
   display: flex;

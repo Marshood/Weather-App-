@@ -13,6 +13,11 @@ color: white;
 padding: 8px;
 text-align: center;
 
+@media (max-width: 768px) {
+     flex-direction: column;
+     box-shadow: 0 1px 0px #4a90e2;  
+   }
+
 `
 
 export const Title = styled.h1`
