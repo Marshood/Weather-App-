@@ -13,17 +13,18 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="App">
-        <Header />
+     <div className="App">
+      <Header />
+       <div className="main-content">
         <Search />
         <div className="results-weather-container">
           <Results />
           <Weather />
         </div>
-
-        <Footer />
       </div>
-    </QueryClientProvider>
+       <Footer />
+    </div>
+  </QueryClientProvider>
   );
 }
 
